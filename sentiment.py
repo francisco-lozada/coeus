@@ -1,6 +1,7 @@
 import os
 from sklearn.feature_extraction.text import CountVectorizer     # machine learning library
 from sklearn.ensemble import RandomForestClassifier     # machine learning library
+import Word2VecUtil
 import pandas as pd     # work with csv file
 import nltk     # remove stop words
 
